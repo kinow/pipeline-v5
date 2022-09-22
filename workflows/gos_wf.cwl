@@ -30,8 +30,8 @@ inputs:
     default: true
 
   # Files to run partially the wf
-  contigs_file: {type: File?}
-  ncrna_tab_file: {type: File?}
+  contigs_file: { type: File? }
+  ncrna_tab_file: { type: File? }
 
   # Pre-process
   overrepresentation_analysis: { type: boolean, default: false }
